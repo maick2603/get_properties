@@ -1,0 +1,6 @@
+,Property,Description,Type,Default
+0,extra,Operating area,ReactNode,-
+1,icon,Custom back icon,ReactNode,-
+2,status,"Result status, decide icons and colors",success | error | info | warning | 404 | 403 | 500,info
+3,subTitle,The subTitle,ReactNode,-
+4,title,The title,ReactNode,-

@@ -1,0 +1,21 @@
+,Property,Description,Type,Default,Version
+0,autoAdjustOverflow,Whether to automatically adjust the popup position,boolean,true,5.8.0
+1,autoFocus,Whether get focus when component mounted,boolean,false,
+2,classNames,Semantic structure className,"Record<SemanticDOM, string>",-,5.10.0
+3,defaultValue,"The default value of slider. When range is false, use number, otherwise, use [number, number]","number | [number, number]","0 | [0, 0]",
+4,disabled,"If true, the slider will not be intractable",boolean,false,
+5,keyboard,Support using keyboard to move handlers,boolean,true,5.2.0+
+6,dots,Whether the thumb can drag over tick only,boolean,false,
+7,included,"Make effect when marks not null, true means containment and false means coordinative",boolean,true,
+8,marks,"Tick mark of Slider, type of key must be number, and must in closed interval [min, max], each mark can declare its own style",object,"{ number: ReactNode } | { number: { style: CSSProperties, label: ReactNode } }",
+9,max,The maximum value the slider can slide to,number,100,
+10,min,The minimum value the slider can slide to,number,0,
+11,range,Dual thumb mode,boolean,false,
+12,reverse,Reverse the component,boolean,false,
+13,step,"The granularity the slider can step through values. Must greater than 0, and be divided by (max - min) . When marks no null, step can be null",number | null,1,
+14,styles,Semantic structure style,"Record<SemanticDOM, React.CSSProperties>",-,5.10.0
+15,tooltip,The tooltip relate props,tooltip,-,4.23.0
+16,value,"The value of slider. When range is false, use number, otherwise, use [number, number]","number | [number, number]",-,
+17,vertical,"If true, the slider will be vertical",boolean,false,
+18,onChangeComplete,Fire when mouseup or keyup is fired,(value) => void,-,
+19,onChange,Callback function that is fired when the user changes the slider's value,(value) => void,-,

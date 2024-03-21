@@ -1,0 +1,11 @@
+,Property,Description,Type,Default,Version
+0,action,The action of Alert,ReactNode,-,4.9.0
+1,afterClose,Called when close animation is finished,() => void,-,
+2,banner,Whether to show as banner,boolean,false,
+3,closable,"The config of closable, >=5.15.0: support aria-*",boolean | ({ closeIcon?: React.ReactNode } & React.AriaAttributes),false,
+4,description,Additional content of Alert,ReactNode,-,
+5,icon,"Custom icon, effective when showIcon is true",ReactNode,-,
+6,message,Content of Alert,ReactNode,-,
+7,showIcon,Whether to show icon,boolean,"false, in banner mode default is true",
+8,type,"Type of Alert styles, options: success, info, warning, error",string,"info, in banner mode default is warning",
+9,onClose,Callback when Alert is closed,(e: MouseEvent) => void,-,

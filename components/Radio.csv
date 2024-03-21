@@ -1,0 +1,6 @@
+,Property,Description,Type,Default
+0,autoFocus,Whether get focus when component mounted,boolean,false
+1,checked,Specifies whether the radio is selected,boolean,false
+2,defaultChecked,Specifies the initial state: whether or not the radio is selected,boolean,false
+3,disabled,Disable radio,boolean,false
+4,value,"According to value for comparison, to determine whether the selected",any,-

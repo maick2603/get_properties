@@ -1,0 +1,15 @@
+,Property,Description,Type,Default,Version
+0,btn,Customized close button,ReactNode,-,-
+1,className,Customized CSS class,string,-,-
+2,closeIcon,Custom close icon,ReactNode,true,5.7.0: close button will be hidden when setting to null or false
+3,description,The content of notification box (required),ReactNode,-,-
+4,duration,"Time in seconds before Notification is closed. When set to 0 or null, it will never be closed automatically",number,4.5,-
+5,icon,Customized icon,ReactNode,-,-
+6,key,The unique identifier of the Notification,string,-,-
+7,message,The title of notification box (required),ReactNode,-,-
+8,placement,"Position of Notification, can be one of top topLeft topRight bottom bottomLeft bottomRight",string,topRight,-
+9,style,Customized inline style,CSSProperties,-,-
+10,role,"The semantics of notification content recognized by screen readers. The default value is alert. When set as the default value, the screen reader will promptly interrupt any ongoing content reading and prioritize the notification content for immediate attention.",alert | status,alert,5.6.0
+11,onClick,Specify a function that will be called when the notification is clicked,function,-,-
+12,onClose,Trigger when notification closed,function,-,-
+13,props,"An object that can contain data-*, aria-*, or role props, to be put on the notification div. This currently only allows data-testid instead of data-* in TypeScript. See https://github.com/microsoft/TypeScript/issues/28960.",Object,-,-

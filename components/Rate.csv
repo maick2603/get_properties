@@ -1,0 +1,17 @@
+,Property,Description,type,Default,Version
+0,allowClear,Whether to allow clear when click again,boolean,true,
+1,allowHalf,Whether to allow semi selection,boolean,false,
+2,autoFocus,If get focus when component mounted,boolean,false,
+3,character,The custom character of rate,ReactNode | (RateProps) => ReactNode,<StarFilled />,function(): 4.4.0
+4,className,The custom class name of rate,string,-,
+5,count,Star count,number,5,
+6,defaultValue,The default value,number,0,
+7,disabled,"If read only, unable to interact",boolean,false,
+8,style,The custom style object of rate,CSSProperties,-,
+9,tooltips,Customize tooltip by each character,string[],-,
+10,value,The current value,number,-,
+11,onBlur,Callback when component lose focus,function(),-,
+12,onChange,Callback when select value,function(value: number),-,
+13,onFocus,Callback when component get focus,function(),-,
+14,onHoverChange,Callback when hover item,function(value: number),-,
+15,onKeyDown,Callback when keydown on component,function(event),-,

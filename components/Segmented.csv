@@ -1,0 +1,8 @@
+,Property,Description,Type,Default,Version
+0,block,Option to fit width to its parent's width,boolean,false,
+1,defaultValue,Default selected value,string | number,,
+2,disabled,Disable all segments,boolean,false,
+3,onChange,The callback function that is triggered when the state changes,function(value: string | number),,
+4,options,Set children optional,string[] | number[] | Array<{ label: ReactNode value: string icon? ReactNode disabled?: boolean className?: string }>,[],
+5,size,The size of the Segmented.,large | middle | small,middle,
+6,value,Currently selected value,string | number,,

@@ -1,0 +1,13 @@
+,Property,Description,Type,Default,Version
+0,accordion,"If true, Collapse renders as Accordion",boolean,false,
+1,activeKey,Key of the active panel,string[] | string  number[] | number,"No default value. In accordion mode, it's the key of the first panel",
+2,bordered,Toggles rendering of the border around the collapse block,boolean,true,
+3,collapsible,Specify whether the panels of children be collapsible or the trigger area of collapsible,header | icon | disabled,-,4.9.0
+4,defaultActiveKey,Key of the initial active panel,string[] | string  number[] | number,-,
+5,destroyInactivePanel,Destroy Inactive Panel,boolean,false,
+6,expandIcon,Allow to customize collapse icon,(panelProps) => ReactNode,-,
+7,expandIconPosition,Set expand icon position,start | end,-,4.21.0
+8,ghost,Make the collapse borderless and its background transparent,boolean,false,4.4.0
+9,size,Set the size of collapse,large | middle | small,middle,5.2.0
+10,onChange,Callback function executed when active panel is changed,function,-,
+11,items,collapse items content,ItemType,-,5.6.0

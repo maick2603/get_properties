@@ -1,0 +1,11 @@
+,Property,Description,Type,Default,Version
+0,decimalSeparator,The decimal separator,string,.,
+1,formatter,Customize value display logic,(value) => ReactNode,-,
+2,groupSeparator,Group separator,string,",",
+3,loading,Loading status of Statistic,boolean,false,4.8.0
+4,precision,The precision of input value,number,-,
+5,prefix,The prefix node of value,ReactNode,-,
+6,suffix,The suffix node of value,ReactNode,-,
+7,title,Display title,ReactNode,-,
+8,value,Display value,string | number,-,
+9,valueStyle,Set value section style,CSSProperties,-,

@@ -1,0 +1,17 @@
+,Property,Description,Type,Default,Version
+0,autoInsertSpaceInButton,Set false to remove space between 2 chinese characters on Button,boolean,true,
+1,componentDisabled,Config antd component disabled,boolean,-,4.21.0
+2,componentSize,Config antd component size,small | middle | large,-,
+3,csp,Set Content Security Policy config,{ nonce: string },-,
+4,direction,Set direction of layout. See demo,ltr | rtl,ltr,
+5,getPopupContainer,To set the container of the popup element. The default is to create a div element in body,function(triggerNode),() => document.body,
+6,getTargetContainer,"Config Affix, Anchor scroll target container",() => HTMLElement,() => window,4.2.0
+7,iconPrefixCls,Set icon prefix className,string,anticon,4.11.0
+8,locale,"Language package setting, you can find the packages in antd/locale",object,-,
+9,popupMatchSelectWidth,Determine whether the dropdown menu and the select input are the same width. Default set min-width same as input. Will ignore when value less than select width. false will disable virtual scroll,boolean | number,-,5.5.0
+10,popupOverflow,Select like component popup logic. Can set to show in viewport or follow window scroll,'viewport' | 'scroll' Preview,'viewport',5.5.0
+11,prefixCls,Set prefix className,string,ant,
+12,renderEmpty,Set empty content of components. Ref Empty,function(componentName: string): ReactNode,-,
+13,theme,"Set theme, ref Customize Theme",Theme,-,5.0.0
+14,virtual,Disable virtual scroll when set to false,boolean,-,4.3.0
+15,warning,"Config warning level, when strict is false, it will aggregate deprecated information into a single message",{ strict: boolean },-,5.10.0

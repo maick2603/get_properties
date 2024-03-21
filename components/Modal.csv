@@ -1,0 +1,30 @@
+,Property,Description,Type,Default,Version
+0,afterClose,Specify a function that will be called when modal is closed completely,function,-,
+1,classNames,Config Modal build-in module's className,header?: string; body?: string; footer?: string; mask?: string; wrapper?: string;,-,
+2,styles,Config Modal build-in module's style,header?: CSSProperties; body?: CSSProperties; footer?: CSSProperties; mask?: CSSProperties;,-,5.10.0
+3,cancelButtonProps,The cancel button props,ButtonProps,-,
+4,cancelText,Text of the Cancel button,ReactNode,Cancel,
+5,centered,Centered Modal,boolean,false,
+6,closeIcon,Custom close icon. 5.7.0: close button will be hidden when setting to null or false,ReactNode,<CloseOutlined />,
+7,confirmLoading,Whether to apply loading visual effect for OK button or not,boolean,false,
+8,destroyOnClose,Whether to unmount child components on onClose,boolean,false,
+9,focusTriggerAfterClose,Whether need to focus trigger element after dialog is closed,boolean,true,4.9.0
+10,footer,"Footer content, set as footer={null} when you don't need default buttons",(params:footerRenderParams)=> React.ReactNode | React.ReactNode,(OK and Cancel buttons),
+11,forceRender,Force render Modal,boolean,false,
+12,getContainer,The mounted node for Modal but still display at fullscreen,HTMLElement | () => HTMLElement | Selectors | false,document.body,
+13,keyboard,Whether support press esc to close,boolean,true,
+14,mask,Whether show mask or not,boolean,true,
+15,maskClosable,Whether to close the modal dialog when the mask (area outside the modal) is clicked,boolean,true,
+16,modalRender,Custom modal content render,(node: ReactNode) => ReactNode,-,4.7.0
+17,okButtonProps,The ok button props,ButtonProps,-,
+18,okText,Text of the OK button,ReactNode,OK,
+19,okType,Button type of the OK button,string,primary,
+20,style,"Style of floating layer, typically used at least for adjusting the position",CSSProperties,-,
+21,title,The modal dialog's title,ReactNode,-,
+22,open,Whether the modal dialog is visible or not,boolean,false,
+23,width,Width of the modal dialog,string | number,520,
+24,wrapClassName,The class name of the container of the modal dialog,string,-,
+25,zIndex,The z-index of the Modal,number,1000,
+26,onCancel,"Specify a function that will be called when a user clicks mask, close button on top right or Cancel button",function(e),-,
+27,onOk,Specify a function that will be called when a user clicks the OK button,function(e),-,
+28,afterOpenChange,Callback when the animation ends when Modal is turned on and off,(open: boolean) => void,-,5.4.0

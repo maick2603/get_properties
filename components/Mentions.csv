@@ -1,0 +1,22 @@
+,Property,Description,Type,Default,Version
+0,allowClear,Show clear button,boolean | { clearIcon?: ReactNode },false,5.13.0
+1,autoFocus,Auto get focus when component mounted,boolean,false,
+2,autoSize,"Textarea height autosize feature, can be set to true | false or an object { minRows: 2, maxRows: 6 }",boolean | object,false,
+3,defaultValue,Default value,string,-,
+4,filterOption,Customize filter option logic,"false | (input: string, option: OptionProps) => boolean",-,
+5,getPopupContainer,Set the mount HTML node for suggestions,() => HTMLElement,-,
+6,notFoundContent,Set mentions content when not match,ReactNode,Not Found,
+7,placement,Set popup placement,top | bottom,bottom,
+8,prefix,Set trigger prefix keyword,string | string[],@,
+9,split,Set split string before and after selected mention,string, ,
+10,status,Set validation status,'error' | 'warning' | 'success' | 'validating',-,4.19.0
+11,validateSearch,Customize trigger search logic,"(text: string, props: MentionsProps) => void",-,
+12,value,Set value of mentions,string,-,
+13,variant,Variants of Input,outlined | borderless | filled,outlined,5.13.0
+14,onBlur,Trigger when mentions lose focus,() => void,-,
+15,onChange,Trigger when value changed,(text: string) => void,-,
+16,onFocus,Trigger when mentions get focus,() => void,-,
+17,onResize,The callback function that is triggered when textarea resize,"function({ width, height })",-,
+18,onSearch,Trigger when prefix hit,"(text: string, prefix: string) => void",-,
+19,onSelect,Trigger when user select the option,"(option: OptionProps, prefix: string) => void",-,
+20,options,Option Configuration,Options,[],5.1.0

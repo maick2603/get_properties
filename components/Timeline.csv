@@ -1,0 +1,6 @@
+,Property,Description,Type,Default
+0,mode,By sending alternate the timeline will distribute the nodes to the left and right,left | alternate | right,-
+1,pending,Set the last ghost node's existence or its content,ReactNode,false
+2,pendingDot,Set the dot of the last ghost node when pending is true,ReactNode,<LoadingOutlined />
+3,reverse,Whether reverse nodes or not,boolean,false
+4,items,Each node of timeline,Items[],5.2.0

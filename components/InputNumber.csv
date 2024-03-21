@@ -1,0 +1,28 @@
+,Property,Description,Type,Default,Version
+0,addonAfter,The label text displayed after (on the right side of) the input field,ReactNode,-,
+1,addonBefore,The label text displayed before (on the left side of) the input field,ReactNode,-,
+2,autoFocus,If get focus when component mounted,boolean,false,-
+3,changeOnBlur,Trigger onChange when blur. e.g. reset value in range by blur,boolean,true,5.11.0
+4,changeOnWheel,Allow control with mouse wheel,boolean,-,5.14.0
+5,controls,"Whether to show +- controls, or set custom arrows icon",boolean | { upIcon?: React.ReactNode; downIcon?: React.ReactNode; },-,4.19.0
+6,decimalSeparator,Decimal separator,string,-,-
+7,placeholder,placeholder,string,-,
+8,defaultValue,The initial value,number,-,-
+9,disabled,If disable the input,boolean,false,-
+10,formatter,Specifies the format of the value presented,"function(value: number | string, info: { userTyping: boolean, input: string }): string",-,info: 4.17.0
+11,keyboard,If enable keyboard behavior,boolean,true,4.12.0
+12,max,The max value,number,Number.MAX_SAFE_INTEGER,-
+13,min,The min value,number,Number.MIN_SAFE_INTEGER,-
+14,parser,Specifies the value extracted from formatter,function(string): number,-,-
+15,precision,The precision of input value. Will use formatter when config of formatter,number,-,-
+16,readOnly,If readonly the input,boolean,false,-
+17,status,Set validation status,'error' | 'warning',-,4.19.0
+18,prefix,The prefix icon for the Input,ReactNode,-,4.17.0
+19,size,The height of input box,large | middle | small,-,-
+20,step,The number to which the current value is increased or decreased. It can be an integer or decimal,number | string,1,-
+21,stringMode,Set value as string to support high precision decimals. Will return string value by onChange,boolean,false,4.13.0
+22,value,The current value,number,-,-
+23,variant,Variants of Input,outlined | borderless | filled,outlined,5.13.0
+24,onChange,The callback triggered when the value is changed,function(value: number | string | null),-,-
+25,onPressEnter,The callback function that is triggered when Enter key is pressed,function(e),-,-
+26,onStep,The callback function that is triggered when click up or down buttons,"(value: number, info: { offset: number, type: 'up' | 'down' }) => void",-,4.7.0

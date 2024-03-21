@@ -1,0 +1,4 @@
+,Property,Description,Type,Default,Version
+0,description,Customize description,ReactNode,-,
+1,image,Customize image. Will treat as image url when string provided,ReactNode,Empty.PRESENTED_IMAGE_DEFAULT,
+2,imageStyle,The style of image,CSSProperties,-,

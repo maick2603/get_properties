@@ -1,0 +1,10 @@
+,Property,Description,Type,Default,Version
+0,icon,Set the icon component of button,ReactNode,-,
+1,description,Text and other,ReactNode,-,
+2,tooltip,The text shown in the tooltip,ReactNode | () => ReactNode,,
+3,type,Setting button type,default | primary,default,
+4,shape,Setting button shape,circle | square,circle,
+5,onClick,Set the handler to handle click event,(event) => void,-,
+6,href,The target of hyperlink,string,-,
+7,target,Specifies where to display the linked URL,string,-,
+8,badge,Attach Badge to FloatButton. status and other props related are not supported.,BadgeProps,-,5.4.0

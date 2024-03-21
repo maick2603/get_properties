@@ -1,0 +1,13 @@
+,Property,Description,Type,Default,Version
+0,color,Customize Badge dot color,string,-,
+1,count,Number to show in badge,ReactNode,-,
+2,classNames,Semantic DOM class,"Record<SemanticDOM, string>",-,5.7.0
+3,dot,Whether to display a red dot instead of count,boolean,false,
+4,offset,Set offset of the badge dot,"[number, number]",-,
+5,overflowCount,Max count to show,number,99,
+6,showZero,Whether to show badge when count is zero,boolean,false,
+7,size,"If count is set, size sets the size of badge",default | small,-,-
+8,status,Set Badge as a status dot,success | processing | default | error | warning,-,
+9,styles,Semantic DOM style,"Record<SemanticDOM, CSSProperties>",-,5.7.0
+10,text,"If status is set, text sets the display text of the status dot",ReactNode,-,
+11,title,Text to show when hovering over the badge,string,-,

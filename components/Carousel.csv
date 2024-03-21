@@ -1,0 +1,13 @@
+,Property,Description,Type,Default,Version
+0,autoplay,Whether to scroll automatically,boolean,false,
+1,autoplaySpeed,Delay between each auto scroll (in milliseconds),number,3000,
+2,dotPosition,"The position of the dots, which can be one of top bottom left right",string,bottom,
+3,dots,"Whether to show the dots at the bottom of the gallery, object for dotsClass and any others",boolean | { className?: string },true,
+4,fade,Whether to use fade transition,boolean,false,
+5,infinite,Infinitely wrap around contents,boolean,true,
+6,speed,Animation speed in milliseconds,number,500,
+7,easing,Transition interpolation function name,string,linear,
+8,effect,Transition effect,scrollx | fade,scrollx,
+9,afterChange,Callback function called after the current index changes,(current: number) => void,-,
+10,beforeChange,Callback function called before the current index changes,"(current: number, next: number) => void",-,
+11,waitForAnimate,Whether to wait for the animation when switching,boolean,false,

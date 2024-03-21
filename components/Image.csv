@@ -1,0 +1,9 @@
+,Property,Description,Type,Default,Version
+0,alt,Image description,string,-,4.6.0
+1,fallback,Load failure fault-tolerant src,string,-,4.6.0
+2,height,Image height,string | number,-,4.6.0
+3,placeholder,"Load placeholder, use default placeholder when set true",ReactNode,-,4.6.0
+4,preview,"preview config, disabled when false",boolean | PreviewType,true,4.6.0 PreviewType:4.7.0
+5,src,Image path,string,-,4.6.0
+6,width,Image width,string | number,-,4.6.0
+7,onError,Load failed callback,(event: Event) => void,-,4.12.0

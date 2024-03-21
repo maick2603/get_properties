@@ -1,0 +1,5 @@
+,Property,Description,Type,Default,Version
+0,itemRender,Custom item renderer,"(route, params, routes, paths) => ReactNode",-,
+1,params,Routing parameters,object,-,
+2,items,The routing stack information of router,ItemType[],-,5.3.0
+3,separator,Custom separator,ReactNode,/,

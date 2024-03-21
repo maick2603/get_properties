@@ -1,0 +1,21 @@
+,Property,Description,Type,Default,Version
+0,addonAfter,The label text displayed after (on the right side of) the input field,ReactNode,-,
+1,addonBefore,The label text displayed before (on the left side of) the input field,ReactNode,-,
+2,allowClear,If allow to remove input content with clear icon,boolean | { clearIcon: ReactNode },false,
+3,classNames,Semantic DOM class,"Record<SemanticDOM, string>",-,5.4.0
+4,count,Character count config,CountConfig,-,5.10.0
+5,defaultValue,The initial input content,string,-,
+6,disabled,Whether the input is disabled,boolean,false,
+7,id,The ID for input,string,-,
+8,maxLength,The maximum number of characters in Input,number,-,
+9,prefix,The prefix icon for the Input,ReactNode,-,
+10,showCount,Whether to show character count,"boolean | { formatter: (info: { value: string, count: number, maxLength?: number }) => ReactNode }",false,4.18.0 info.value: 4.23.0
+11,status,Set validation status,'error' | 'warning',-,4.19.0
+12,styles,Semantic DOM style,"Record<SemanticDOM, CSSProperties>",-,5.4.0
+13,size,"The size of the input box. Note: in the context of a form, the middle size is used",large | middle | small,-,
+14,suffix,The suffix icon for the Input,ReactNode,-,
+15,type,"The type of input, see: MDN( use Input.TextArea instead of type=""textarea"")",string,text,
+16,value,The input content value,string,-,
+17,variant,Variants of Input,outlined | borderless | filled,outlined,5.13.0
+18,onChange,Callback when user input,function(e),-,
+19,onPressEnter,The callback function that is triggered when Enter key is pressed,function(e),-,

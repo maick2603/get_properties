@@ -1,0 +1,16 @@
+,Property,Description,Type,Default,Version
+0,block,Option to fit button width to its parent width,boolean,false,
+1,classNames,Semantic DOM class,"Record<SemanticDOM, string>",-,5.4.0
+2,danger,Set the danger status of button,boolean,false,
+3,disabled,Disabled state of button,boolean,false,
+4,ghost,Make background transparent and invert text and border colors,boolean,false,
+5,href,Redirect url of link button,string,-,
+6,htmlType,"Set the original html type of button, see: MDN",string,button,
+7,icon,Set the icon component of button,ReactNode,-,
+8,loading,Set the loading status of button,boolean | { delay: number },false,
+9,shape,Can be set button shape,default | circle | round,default,
+10,size,Set the size of button,large | middle | small,middle,
+11,styles,Semantic DOM style,"Record<SemanticDOM, CSSProperties>",-,5.4.0
+12,target,"Same as target attribute of a, works when href is specified",string,-,
+13,type,Set button type,primary | dashed | link | text | default,default,
+14,onClick,Set the handler to handle click event,(event: MouseEvent) => void,-,

@@ -1,0 +1,4 @@
+,Property,Description,Type,Default
+0,className,Container className,string,-
+1,hasSider,"Whether contain Sider in children, don't have to assign it normally. Useful in ssr avoid style flickering",boolean,-
+2,style,To customize the styles,CSSProperties,-

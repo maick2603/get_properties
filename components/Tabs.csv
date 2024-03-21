@@ -1,0 +1,24 @@
+,Property,Description,Type,Default,Version
+0,activeKey,Current TabPane's key,string,-,
+1,addIcon,"Customize add icon, only works with type=""editable-card""",ReactNode,<PlusOutlined />,4.4.0
+2,animated,Whether to change tabs with animation.,"boolean | { inkBar: boolean, tabPane: boolean }","{ inkBar: true, tabPane: false }",
+3,centered,Centers tabs,boolean,false,4.4.0
+4,defaultActiveKey,"Initial active TabPane's key, if activeKey is not set",string,-,
+5,hideAdd,"Hide plus icon or not. Only works while type=""editable-card""",boolean,false,
+6,indicator,Customize size and align of indicator,{ size?: number | (origin: number) => number; align: start | center | end; },-,5.13.0
+7,items,Configure tab content,TabItemType,[],4.23.0
+8,moreIcon,The custom icon of ellipsis,ReactNode,<EllipsisOutlined />,4.14.0
+9,removeIcon,"The custom icon of remove, only works with type=""editable-card""",ReactNode,<CloseOutlined />,5.15.0
+10,popupClassName,className for more dropdown.,string,-,4.21.0
+11,renderTabBar,Replace the TabBar,"(props: DefaultTabBarProps, DefaultTabBar: React.ComponentClass) => React.ReactElement",-,
+12,size,Preset tab bar size,large | middle | small,middle,
+13,tabBarExtraContent,Extra content in tab bar,"ReactNode | {left?: ReactNode, right?: ReactNode}",-,object: 4.6.0
+14,tabBarGutter,The gap between tabs,number,-,
+15,tabBarStyle,Tab bar style object,CSSProperties,-,
+16,tabPosition,Position of tabs,top | right | bottom | left,top,
+17,destroyInactiveTabPane,Whether destroy inactive TabPane when change tab,boolean,false,
+18,type,Basic style of tabs,line | card | editable-card,line,
+19,onChange,Callback executed when active tab is changed,(activeKey: string) => void,-,
+20,onEdit,"Callback executed when tab is added or removed. Only works while type=""editable-card""","(action === 'add' ? event : targetKey, action) => void",-,
+21,onTabClick,Callback executed when tab is clicked,"(key: string, event: MouseEvent) => void",-,
+22,onTabScroll,Trigger when tab scroll,({ direction: left | right | top | bottom }) => void,-,4.3.0

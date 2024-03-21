@@ -1,0 +1,12 @@
+,Property,Description,Type,Default,Version
+0,value,scanned text,string,-,
+1,type,render type,canvas | svg ,canvas,5.6.0
+2,icon,include image url (only image link are supported),string,-,
+3,size,QRCode size,number,160,
+4,iconSize,include image size,number,32,
+5,color,QRCode Color,string,#000,
+6,bgColor,QRCode Background Color,string,transparent,5.5.0
+7,bordered,Whether has border style,boolean,true,
+8,errorLevel,Error Code Level,'L' | 'M' | 'Q' | 'H' ,M,
+9,status,QRCode status,active | expired | loading | scanned,active,scanned: 5.13.0
+10,onRefresh,callback,() => void,-,

@@ -1,0 +1,23 @@
+,Property,Description,Type,Default,Version
+0,allowClear,Allow clearing color selected,boolean,false,
+1,arrow,Configuration for popup arrow,boolean | { pointAtCenter: boolean },true,
+2,children,Trigger of ColorPicker,React.ReactNode,-,
+3,defaultValue,Default value of color,string | Color,-,
+4,defaultFormat,Default format of color,rgb | hex | hsb,-,5.9.0
+5,disabled,Disable ColorPicker,boolean,-,
+6,disabledAlpha,Disable Alpha,boolean,-,5.8.0
+7,destroyTooltipOnHide,Whether destroy popover when hidden,boolean,false,5.7.0
+8,format,Format of color,rgb | hex | hsb,hex,
+9,open,Whether to show popup,boolean,-,
+10,presets,Preset colors,"{ label: ReactNode, colors: Array<string | Color>, defaultOpen?: boolean }[]",-,defaultOpen: 5.11.0
+11,placement,Placement of popup,top | topLeft | topRight | bottom | bottomLeft | bottomRight,bottomLeft,
+12,panelRender,Custom Render Panel,"(panel: React.ReactNode, extra: { components: { Picker: FC; Presets: FC } }) => React.ReactNode",-,5.7.0
+13,showText,Show color text,boolean | (color: Color) => React.ReactNode,-,5.7.0
+14,size,Setting the trigger size,large | middle | small,middle,5.7.0
+15,trigger,ColorPicker trigger mode,hover | click,click,
+16,value,Value of color,string | Color,-,
+17,onChange,Callback when value is changed,"(value: Color, hex: string) => void",-,
+18,onChangeComplete,Called when color pick ends,(value: Color) => void,-,5.7.0
+19,onFormatChange,Callback when format is changed,(format: 'hex' | 'rgb' | 'hsb') => void,-,
+20,onOpenChange,Callback when open is changed,(open: boolean) => void,-,
+21,onClear,Called when clear,() => void,-,5.6.0

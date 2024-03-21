@@ -1,0 +1,6 @@
+,Property,Description,Type,Default,Version
+0,closeIcon,Custom close icon. 5.7.0: close button will be hidden when setting to null or false,ReactNode,false,4.4.0
+1,color,Color of the Tag,string,-,
+2,icon,Set the icon of tag,ReactNode,-,
+3,bordered,Whether has border style,boolean,true,5.4.0
+4,onClose,Callback executed when tag is closed,(e) => void,-,

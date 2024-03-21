@@ -1,0 +1,4 @@
+,Argument,Description,Type,Default
+0,content,The content of the message,ReactNode | config,-
+1,duration,"Time(seconds) before auto-dismiss, don't dismiss if set to 0",number,1.5
+2,onClose,Specify a function that will be called when the message is closed,function,-

@@ -1,0 +1,11 @@
+,Property,Description,Type,Default,Version
+0,format,The template function of the content,"function(percent, successPercent)",(percent) => percent + %,-
+1,percent,To set the completion percentage,number,0,-
+2,showInfo,Whether to display the progress value and the status icon,boolean,true,
+3,status,"To set the status of the Progress, options: success exception normal active(line only)",string,-,
+4,strokeColor,The color of progress bar,string,-,-
+5,strokeLinecap,To set the style of the progress linecap,"round | butt | square, see stroke-linecap",round,-
+6,success,Configs of successfully progress bar,"{ percent: number, strokeColor: string }",-,-
+7,trailColor,The color of unfilled part,string,-,-
+8,type,"To set the type, options: line circle dashboard",string,line,
+9,size,Progress size,"number | [number | string, number] | ""small"" | ""default""","""default""",v5.3.0

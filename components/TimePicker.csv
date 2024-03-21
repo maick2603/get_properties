@@ -1,0 +1,33 @@
+,Property,Description,Type,Default,Version
+0,allowClear,Customize clear icon,boolean | { clearIcon?: ReactNode },true,5.8.0: Support object type
+1,autoFocus,If get focus when component mounted,boolean,false,
+2,cellRender,Custom rendering function for picker cells,"(current: number, info: { originNode: React.ReactElement, today: dayjs, range?: 'start' | 'end', subType: 'hour' | 'minute' | 'second' | 'meridiem' }) => React.ReactNode",-,5.4.0
+3,changeOnScroll,Trigger selection when scroll the column,boolean,false,5.14.0
+4,className,The className of picker,string,-,
+5,defaultValue,To set default time,dayjs,-,
+6,disabled,Determine whether the TimePicker is disabled,boolean,false,
+7,disabledTime,To specify the time that cannot be selected,DisabledTime,-,4.19.0
+8,format,To set the time format,string,HH:mm:ss,
+9,getPopupContainer,"To set the container of the floating layer, while the default is to create a div element in body",function(trigger),-,
+10,hideDisabledOptions,Whether hide the options that can not be selected,boolean,false,
+11,hourStep,Interval between hours in picker,number,1,
+12,inputReadOnly,Set the readonly attribute of the input tag (avoids virtual keyboard on touch devices),boolean,false,
+13,minuteStep,Interval between minutes in picker,number,1,
+14,needConfirm,Need click confirm button to trigger value change,boolean,-,5.14.0
+15,open,Whether to popup panel,boolean,false,
+16,placeholder,Display when there's no value,"string | [string, string]",Select a time,
+17,placement,The position where the selection box pops up,bottomLeft bottomRight topLeft topRight,bottomLeft,
+18,popupClassName,The className of panel,string,-,
+19,popupStyle,The style of panel,CSSProperties,-,
+20,renderExtraFooter,Called from time picker panel to render some addon to its bottom,() => ReactNode,-,
+21,secondStep,Interval between seconds in picker,number,1,
+22,showNow,Whether to show Now button on panel,boolean,-,4.4.0
+23,size,"To determine the size of the input box, the height of large and small, are 40px and 24px respectively, while default size is 32px",large | middle | small,-,
+24,status,Set validation status,'error' | 'warning' | 'success' | 'validating',-,4.19.0
+25,suffixIcon,The custom suffix icon,ReactNode,-,
+26,use12Hours,"Display as 12 hours format, with default format h:mm:ss a",boolean,false,
+27,value,To set time,dayjs,-,
+28,variant,Variants of picker,outlined | borderless | filled,outlined,5.13.0
+29,onCalendarChange,"Callback function, can be executed when the start time or the end time of the range is changing. info argument is added in 4.4.0","function(dates: [dayjs, dayjs], dateStrings: [string, string], info: { range:start|end })",-,
+30,onChange,"A callback function, can be executed when the selected time is changing","function(time: dayjs, timeString: string): void",-,
+31,onOpenChange,A callback function which will be called while panel opening/closing,(open: boolean) => void,-,

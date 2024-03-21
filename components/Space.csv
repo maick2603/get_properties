@@ -1,0 +1,8 @@
+,Property,Description,Type,Default,Version
+0,align,Align items,start | end |center |baseline,-,4.2.0
+1,classNames,Semantic className,"Record<SemanticDOM, string>",-,
+2,direction,The space direction,vertical | horizontal,horizontal,4.1.0
+3,size,The space size,Size | Size[],small,4.1.0 | Array: 4.9.0
+4,split,Set split,ReactNode,-,4.7.0
+5,styles,Semantic style,"Record<SemanticDOM, CSSProperties>",-,
+6,wrap,"Auto wrap line, when horizontal effective",boolean,false,4.9.0

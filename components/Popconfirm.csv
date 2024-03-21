@@ -1,0 +1,14 @@
+,Param,Description,Type,Default value,Version
+0,cancelButtonProps,The cancel button props,ButtonProps,-,
+1,cancelText,The text of the Cancel button,string,Cancel,
+2,disabled,Whether show popconfirm when click its childrenNode,boolean,false,
+3,icon,Customize icon of confirmation,ReactNode,<ExclamationCircle />,
+4,okButtonProps,The ok button props,ButtonProps,-,
+5,okText,The text of the Confirm button,string,OK,
+6,okType,Button type of the Confirm button,string,primary,
+7,showCancel,Show cancel button,boolean,true,4.18.0
+8,title,The title of the confirmation box,ReactNode | () => ReactNode,-,
+9,description,The description of the confirmation box title,ReactNode | () => ReactNode,-,5.1.0
+10,onCancel,A callback of cancel,function(e),-,
+11,onConfirm,A callback of confirmation,function(e),-,
+12,onPopupClick,A callback of popup click,function(e),-,5.5.0

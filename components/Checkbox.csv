@@ -1,0 +1,7 @@
+,Property,Description,Type,Default,Version
+0,autoFocus,If get focus when component mounted,boolean,false,
+1,checked,Specifies whether the checkbox is selected,boolean,false,
+2,defaultChecked,Specifies the initial state: whether or not the checkbox is selected,boolean,false,
+3,disabled,If disable checkbox,boolean,false,
+4,indeterminate,The indeterminate checked state of checkbox,boolean,false,
+5,onChange,The callback function that is triggered when the state changes,(e: CheckboxChangeEvent) => void,-,
